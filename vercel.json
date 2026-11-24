@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/kma/1360000/VilageFcstInfoService_2.0/:path*",
+      "destination": "https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/:path*"
+    },
+    {
+      "source": "/api/kma/:path*",
+      "destination": "https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/:path*"
+    }
+  ]
+}
